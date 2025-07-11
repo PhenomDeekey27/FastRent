@@ -12,7 +12,6 @@ const LogContextProvider = ({ children }: { children: ReactNode }) => {
   const addLogs = (message: string) => {
     if (!isLoaded || !user) return
 
-    console.log(user,"looggeduser")
     const adminName =
       user.fullName ||
       user.firstName ||

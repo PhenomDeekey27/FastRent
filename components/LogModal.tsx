@@ -12,7 +12,7 @@ const LogModal = ({ logview, setlogview }: LogModalProps) => {
         throw new Error("Logcontext must be used within a LogContextProvider")
     }
     const { logs } = context
-    console.log(logs, "received logs")
+
     return logview && (
         <div>
             <div id="default-modal" tabIndex={-1} aria-hidden="true" className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-black">
