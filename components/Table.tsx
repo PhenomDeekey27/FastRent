@@ -133,9 +133,7 @@ const rejectStatus = (id:string) => {
                                     <span className="font-bold text-white">{item.brand}</span>
                                     {item.title}
                                 </td>
-                                {/* <td className="px-6 py-3 font-bold text-white">
-                                    {item.brand}
-                                </td> */}
+                               
                                 <td className="px-6 py-3">
                                     {item.model}
                                 </td>

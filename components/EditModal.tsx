@@ -42,8 +42,7 @@ const EditModal = ({ Modal, Item, setModal, setcars }: ModalProps) => {
   const { name, value } = e.target;
 
   setselectedItem((prev) => {
-    if (!prev) return prev; // or throw if null isn't expected
-
+    if (!prev) return prev;
     return {
       ...prev,
       [name]: value,
